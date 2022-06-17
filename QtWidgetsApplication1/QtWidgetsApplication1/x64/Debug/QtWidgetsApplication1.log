@@ -1,0 +1,5 @@
+﻿  uic QtWidgetsApplication1.ui
+  QtWidgetsApplication1.cpp
+  main.cpp
+e:\community projet\qtwidgetsapplication1\qtwidgetsapplication1\qtwidgetsapplication1.cpp(62): error C2084: la fonction 'void QtWidgetsApplication1::onSocketReadyRead(void)' a déjà un corps
+  e:\community projet\qtwidgetsapplication1\qtwidgetsapplication1\qtwidgetsapplication1.cpp(57): note: voir la définition précédente de 'onSocketReadyRead'
