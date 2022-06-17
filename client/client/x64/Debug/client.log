@@ -1,0 +1,5 @@
+﻿  uic client.ui
+  client.cpp
+  main.cpp
+  moc_client.cpp
+  client.vcxproj -> E:\community projet\client\x64\Debug\client.exe
