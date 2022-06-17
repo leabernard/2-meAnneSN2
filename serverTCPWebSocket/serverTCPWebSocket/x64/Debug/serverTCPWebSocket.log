@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\léa bernard\desktop\servertcpwebsocket\servertcpwebsocket\main.cpp(10): error C2248: 'QSqlDatabase::QSqlDatabase' : impossible d'accéder à protected membre déclaré(e) dans la classe 'QSqlDatabase'
+  c:\qt\5.14.2\msvc2017_64\include\qtsql\qsqldatabase.h(132): note: voir la déclaration de 'QSqlDatabase::QSqlDatabase'
+  c:\qt\5.14.2\msvc2017_64\include\qtsql\qsqldriver.h(51): note: voir la déclaration de 'QSqlDatabase'
