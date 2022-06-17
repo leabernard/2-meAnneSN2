@@ -1,0 +1,6 @@
+﻿  Reading Qt configuration (C:/Qt/5.14.2/msvc2017_64/bin/qmake)
+  moc serverTCP.h
+  main.cpp
+  serverTCP.cpp
+  moc_serverTCP.cpp
+  serverTCP.vcxproj -> C:\Users\Léa bernard\source\repos\serverTCP\x64\Debug\serverTCP.exe

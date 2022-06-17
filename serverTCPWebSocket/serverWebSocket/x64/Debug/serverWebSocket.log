@@ -1,0 +1,19 @@
+﻿  Reading Qt configuration (C:/Qt/5.14.2/msvc2017_64/bin/qmake)
+  moc serverWebSocket.h
+  main.cpp
+  serverWebSocket.cpp
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\main.cpp(6): error C2065: 'QtserverWebSocket' : identificateur non déclaré (compilation du fichier source main.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\main.cpp(6): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'server' (compilation du fichier source main.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\main.cpp(6): error C3861: 'server' : identificateur introuvable (compilation du fichier source main.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(6): error C2039: 'listen' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(10): error C2039: 'nextPendingConnection' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(15): error C2039: 'nextPendingConnection' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(22): error C2039: 'read' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(22): error C2039: 'bytesAvailable' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.cpp(24): error C2039: 'write' : n'est pas membre de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
+  c:\users\léa bernard\source\repos\servertcp\serverwebsocket\serverwebsocket.h(8): note: voir la déclaration de 'QtserverWebSocket' (compilation du fichier source serverWebSocket.cpp)
