@@ -1,0 +1,6 @@
+﻿  tcp.cpp
+  main.cpp
+  qrc_tcp.cpp
+  moc_tcp.cpp
+moc_tcp.obj : error LNK2019: symbole externe non résolu "public: void __cdecl tcp::onDisplayMessageButtonClicked(void)" (?onDisplayMessageButtonClicked@tcp@@QEAAXXZ) référencé dans la fonction "private: static void __cdecl tcp::qt_static_metacall(class QObject *,enum QMetaObject::Call,int,void * *)" (?qt_static_metacall@tcp@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z)
+E:\community projet\tcp\x64\Debug\tcp.exe : fatal error LNK1120: 1 externes non résolus
