@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deClass</class>
+ <widget class="QMainWindow" name="deClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>636</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>de</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="totaldestour">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="remiszero">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>150</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>remise à zéro du score</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="scoretotal">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>score total</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tirageDe">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>tirer le dé</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="historique">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>historique</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>211</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>indice</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>valeur</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="nbrDeJets">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nombre de jets</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nb2jets">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>290</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>636</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufichier">
+    <property name="title">
+     <string>fichier</string>
+    </property>
+    <addaction name="actionde"/>
+    <addaction name="actiondehisto"/>
+   </widget>
+   <addaction name="menufichier"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="de">
+   <property name="text">
+    <string>de</string>
+   </property>
+  </action>
+  <action name="dehisto">
+   <property name="text">
+    <string>dehisto</string>
+   </property>
+  </action>
+  <action name="actionde">
+   <property name="text">
+    <string>de </string>
+   </property>
+  </action>
+  <action name="actiondehisto">
+   <property name="text">
+    <string>dehisto</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="de.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>tirageDe</sender>
+   <signal>clicked()</signal>
+   <receiver>deClass</receiver>
+   <slot>tirage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tirageDe</sender>
+   <signal>clicked()</signal>
+   <receiver>deClass</receiver>
+   <slot>score()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remiszero</sender>
+   <signal>clicked()</signal>
+   <receiver>deClass</receiver>
+   <slot>zero()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>365</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scoretotal</sender>
+   <signal>clicked()</signal>
+   <receiver>deClass</receiver>
+   <slot>total()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionde</sender>
+   <signal>triggered(bool)</signal>
+   <receiver>deClass</receiver>
+   <slot>denormal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actiondehisto</sender>
+   <signal>triggered()</signal>
+   <receiver>deClass</receiver>
+   <slot>dehistor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>tirage()</slot>
+  <slot>score()</slot>
+  <slot>zero()</slot>
+  <slot>total()</slot>
+  <slot>denormal()</slot>
+  <slot>dehistor()</slot>
+ </slots>
+</ui>
