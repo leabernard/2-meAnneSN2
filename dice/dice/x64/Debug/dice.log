@@ -1,0 +1,9 @@
+﻿  Reading Qt configuration (C:/Qt/5.14.2/msvc2017_64/bin/qmake)
+  dice.cpp
+  main.cpp
+e:\community projet\dice\dice\dede.h(21): error C2059: erreur de syntaxe : '}' (compilation du fichier source dice.cpp)
+e:\community projet\dice\dice\dede.h(21): error C2143: erreur de syntaxe : absence de ';' avant '}' (compilation du fichier source dice.cpp)
+e:\community projet\dice\dice\dede.h(21): error C2238: jetons inattendus avant ';' (compilation du fichier source dice.cpp)
+e:\community projet\dice\dice\dede.h(21): error C2059: erreur de syntaxe : '}' (compilation du fichier source main.cpp)
+e:\community projet\dice\dice\dede.h(21): error C2143: erreur de syntaxe : absence de ';' avant '}' (compilation du fichier source main.cpp)
+e:\community projet\dice\dice\dede.h(21): error C2238: jetons inattendus avant ';' (compilation du fichier source main.cpp)
